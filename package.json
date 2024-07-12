@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:api":"npx cypress open"
+    "test:api": "npx cypress open"
   },
   "keywords": [],
   "author": "",
