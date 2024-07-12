@@ -4,7 +4,7 @@ describe('API Testing without Token', () => {
             method: 'POST',
             url: 'http://localhost:8080/api/postGame',
             body: {
-                gameData: { score: 100, player: 'John Doe' }
+                gameData: { score: 100, player: 'Dream10@gmail.com' }
             },
             failOnStatusCode: false  // ใช้ตัวเลือกนี้เพื่อไม่ให้ Cypress ล้มเหลวเมื่อไม่มี Token
         })

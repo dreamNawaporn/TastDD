@@ -15,8 +15,8 @@ describe('API Testing without Token', () => {
         method: 'POST',
         url: 'http://localhost:8080/api/users',
         body: {
-          name: 'John Doe',
-          email: 'john.doe@example.com'
+          name: 'Dream',
+          email: 'Dream10@gmail.com'
         },
         failOnStatusCode: false
       })
@@ -32,7 +32,7 @@ describe('API Testing without Token', () => {
             method: 'POST',
             url: 'http://localhost:8080/api/auth',
             body: {
-              email: 'admin@example.com',
+              email: 'admin@gmail.com',
               password: 'password'
             },
             failOnStatusCode: false
